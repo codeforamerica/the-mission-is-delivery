@@ -64,10 +64,6 @@ p {
   Rename to @screen-sm-min when we implement asset management
 */
 @media (min-width: 768px) {
-	p {
-		font-size: 16px;
-		line-height: 1.6em;
-	}
 	.text-column {
 		margin: 0;
 	}
