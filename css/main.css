@@ -16,7 +16,6 @@ p {
 	font-weight: 700;
 	height: 100%;
 	width: auto;
-	margin-left: 1em;
 }
 
 .logo-light {
@@ -44,3 +43,19 @@ p {
 	height: auto;
 	margin: 0;
 }
+
+/*  Extra small devices (phones, less than 768px):
+  No media query since this is the default in Bootstrap */
+
+/*  Small devices (tablets, 768px and up)
+  Rename to @screen-sm-min when we implement asset management
+*/
+@media (min-width: 768px) {}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
