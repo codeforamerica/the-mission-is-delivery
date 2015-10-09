@@ -2,9 +2,11 @@ h1, h2, h3, h4, p, b, a {
 	font-family: "tablet-gothic", sans-serif;
 }
 
+
+
 p {
-	font-size: 16px;
-	line-height: 1.6em;
+	font-size: 18px;
+	line-height: 1.8em;
 }
 
 .slide-row {
@@ -13,9 +15,16 @@ p {
 }
 
 .logo {
+	font-size: 16px;
+	line-height: 1.6em;
 	font-weight: 700;
 	height: 100%;
 	width: auto;
+}
+
+.talk-title {
+	font-size: 16px;
+	line-height: 1.6em;
 }
 
 .logo-light {
@@ -37,6 +46,10 @@ p {
 	padding: 0;
 }
 
+.text-column {
+	margin: 2em 0;
+}
+
 .slide {
 /*	border: 1px solid #E7E7E7;*/
 	width: 100%;
@@ -50,7 +63,18 @@ p {
 /*  Small devices (tablets, 768px and up)
   Rename to @screen-sm-min when we implement asset management
 */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+	p {
+		font-size: 16px;
+		line-height: 1.6em;
+	}
+	.text-column {
+		margin: 0;
+	}
+	.logo {
+		margin: 0 0 0 2.5em;
+	}
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) {
